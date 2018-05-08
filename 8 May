@@ -1,0 +1,25 @@
+1:page;include;taglib
+2.the numbers properties of "page" is  15:
+					1.language
+					2.extends--->servlet
+					3.import
+					4.pageEncoding
+          5.contentType
+          6.session
+          7.buffer--->out
+          8.autoFlush--->cache
+          9.isErrorPage
+          10.errorPage
+3.include--->A.include another JSP file in static way
+             B.the include JSP file should not be within the "<html>,<body>" elements
+             c.the var shouldn't be the same name in the 2 JSP files
+          1.file="path"
+4.taglib
+5.<%!%>the global declare var or method
+6.<%%>create a local var or call other methods,but can't create a new method
+7.<%=%>input the code
+8.the hidden annotation:<@--annotation--@>
+9.
+10.
+
+						
