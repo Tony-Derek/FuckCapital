@@ -1,0 +1,22 @@
+1.<jsp:include page="url">
+2.NOTE:The difference of the <%include= %> & <jsp:include>:
+            1."file" & "page"
+            2."file" can't adapt the JSP expression,"page" could
+            3.KEY:the var names in "include" can't be the same,but the var names in "jsp:include" could be the same
+3.page:the relative path
+4.flush:is refresh the cache
+5.<jsp:param>
+6.<jsp:forward>
+7.built-in object:
+  1.request
+  2.reponse
+  3.session
+  4.application
+  5.out
+  6.pageContext
+  7.config
+  8.page
+  9.exception
+8.<a href="delete.jsp?a=1">delete</a>
+<%request.getParameter("id")%> in the delete.jsp
+  
